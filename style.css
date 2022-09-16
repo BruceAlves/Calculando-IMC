@@ -1,0 +1,49 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+   
+    text-align: center;
+    color: white;
+
+  }
+
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+    border-radius: 10px;
+  }
+
+  button {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: steelblue;
+  }
+
+  input {
+    opacity: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+
+  .final-step,
+  .second-step {
+    display:none;
+  }
+
+  #resultado{
+    font-size: 25px;
+  }
